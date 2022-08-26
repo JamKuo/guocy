@@ -20,3 +20,14 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 # Jekyll <= 4.2.0 compatibility with Ruby 3.0
 gem "webrick", "~> 1.7"
+
+group :jekyll_plugins do
+  gem "jekyll-paginate"
+  gem "jekyll-sitemap"
+  gem "jekyll-gist"
+  gem "jekyll-feed"
+  gem "jemoji"
+  gem "jekyll-include-cache"
+  gem "jekyll-algolia"
+  gem "jekyll-admin"
+end
