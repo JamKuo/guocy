@@ -182,6 +182,7 @@ PLATFORMS
   x86_64-darwin-21
 
 DEPENDENCIES
+  backports (~> 3.23)
   html-proofer (~> 3.18)
   jekyll-admin
   jekyll-algolia
